@@ -1,0 +1,52 @@
+[gd_scene format=3 uid="uid://cqnaqyawxwv5t"]
+
+[ext_resource type="Script" uid="uid://bd67thg3bdxid" path="res://node_2d.gd" id="1_wfrdm"]
+[ext_resource type="Texture2D" uid="uid://bhjmhnd543rcu" path="res://открытка.png" id="2_vdco1"]
+[ext_resource type="Texture2D" uid="uid://btv7b55xsiifo" path="res://Screenshot_20260504_181726_com_google_android_googlequicksearchbox_GoogleAppActivi.jpg" id="3_vdco1"]
+
+[node name="открытка" type="Node2D" unique_id=2038196304]
+script = ExtResource("1_wfrdm")
+
+[node name="Открытка" type="Sprite2D" parent="." unique_id=1575454573]
+position = Vector2(848, 699)
+scale = Vector2(9.21875, 9.21875)
+texture = ExtResource("2_vdco1")
+
+[node name="Label" type="Label" parent="." unique_id=1363729825]
+modulate = Color(1, 0.26666668, 0.38431373, 1)
+offset_left = 286.0
+offset_top = 190.0
+offset_right = 544.0
+offset_bottom = 447.0
+text = "С днем рождения полурослик
+          я хз чего пожелать
+Ну корове счастья, здоровья и
+бла бла бла....(ну понятно)
+вот а главоное я приберек на 
+последок
+и так внимание цитата-
+(маленькая собака до старости 
+щенок)кто бы знал в чем здесь 
+смысл ну да ладно"
+
+[node name="Label2" type="Label" parent="." unique_id=166737159]
+modulate = Color(1, 0.26666668, 0.38431373, 1)
+offset_left = 615.0
+offset_top = 182.0
+offset_right = 830.0
+offset_bottom = 205.0
+text = "еще раз с днем рождения)"
+
+[node name="Label3" type="Label" parent="." unique_id=1579658428]
+modulate = Color(1, 0.26666668, 0.38431373, 1)
+offset_left = 571.0
+offset_top = 414.0
+offset_right = 858.0
+offset_bottom = 465.0
+text = "P.S - у меня у тебя... ну короче такая 
+ава стоит"
+
+[node name="Screenshot20260504181726ComGoogleAndroidGooglequicksearchboxGoogleAppActivi" type="Sprite2D" parent="." unique_id=148399271]
+position = Vector2(719, 310.5)
+scale = Vector2(0.28703696, 0.26962033)
+texture = ExtResource("3_vdco1")
